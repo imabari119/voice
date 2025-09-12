@@ -118,7 +118,7 @@ if selected_date:
                 "address": "住所",
                 "link": st.column_config.LinkColumn("リンク", display_text="詳細"),
             },
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
