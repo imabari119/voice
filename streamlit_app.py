@@ -154,11 +154,11 @@ if selected_date:
     
             for _, r in gdf.iterrows():
                 match r["type"]:
-                    case 7:
+                    case 70:
                         color = "orange"
-                    case 8:
+                    case 80:
                         color = "green"
-                    case 9:
+                    case 90:
                         color = "blue"
                     case _:
                         color = "red"
