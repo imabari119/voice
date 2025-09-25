@@ -141,7 +141,7 @@ if selected_date:
             .reset_index()
         )
 
-        map_cont = st.container(height=735, border=True)
+        map_cont = st.container(height=500, border=True)
         
         with map_cont:
 
